@@ -1,0 +1,5 @@
+<h1>{{ item.name }}</h1>
+<p>{{ item.description }}</p>
+<p>Price: {{ item.price }}</p>
+<a href="{% url 'buy-item' item_id=item.id %}">Buy now</a>
+
